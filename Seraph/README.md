@@ -1,7 +1,9 @@
-# Moon Seraph · 白金翼角色原型
+# Moon Seraph · 角色模型第二版
 
-![角色预览](Moon-Seraph.png)
+![模型正面、背面和近景](Moon-Seraph.png)
 
-- `Moon-Seraph.blend` 是 Blender 4.3.2 可编辑源文件。
-- `Moon-Seraph.glb` 是带蒙皮骨架的游戏交换文件。角色由 10 个网格、19 根骨骼和 25,002 个三角形组成。
-- 在 Blender 中播放 `Wings_Fold_Spread`，第 1、48、96 帧分别为收翼、全展和收翼。GLB 已重新导入 Blender 验证。iOS SceneKit 导入、战斗动作映射与真机帧率待验证。
+- [Blender 4.3.2 源文件](Moon-Seraph.blend) 含可编辑网格、内嵌贴图、蒙皮和收展翼动画。
+- [GLB 模型](Moon-Seraph.glb) 含 15 个网格、26 根骨骼、5 张贴图和 122,548 个三角形。
+- 造型包括带面部起伏的头模、参考图投影纹理、分束长发、金属镂空冠饰、五层飞羽与覆羽、织纹与刺绣裙边。面部神态主要由贴图表现。
+- 动画 `Wings_Fold_Spread` 第 1、48、96 帧分别为收翼、全展、收翼。已重新导入 Blender 测量翼展，依次为 0.558、1.523、0.558 个场景单位。
+- 此版用于角色美术评审。完整战斗动作映射、面部表情、布料动态与 iPhone 真机性能仍待制作或验证。
